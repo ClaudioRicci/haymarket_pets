@@ -1,6 +1,8 @@
 {
   "name": "haymarket-pets",
+  "description": "Haymarket Pets React App with Typescript",
   "version": "0.1.0",
+  "author": "Claudio Ricci",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.21",
