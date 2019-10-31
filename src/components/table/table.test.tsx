@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import Table from "./table";
 import { unmountComponentAtNode } from "react-dom";
 
 let container: any = null;
-
 it("renders without crashing", () => {
   const div = document.createElement("div");
-  ReactDOM.render(<App />, div);
+  ReactDOM.render(<Table />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
 
