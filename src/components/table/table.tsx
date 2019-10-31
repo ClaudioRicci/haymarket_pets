@@ -42,17 +42,7 @@ export default function Table() {
       data={state.data}
       options={{
         paging: false,
-        search: false,
-        headerStyle: {
-          backgroundColor: "#01579b",
-          fontSize: 18,
-          color: "#FFF"
-        },
-        rowStyle: {
-          backgroundColor: "#EEE",
-          fontSize: 16,
-          color: "#000"
-        }
+        search: false
       }}
       editable={{
         onRowAdd: newData =>
