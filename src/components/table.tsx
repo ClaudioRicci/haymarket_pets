@@ -1,7 +1,7 @@
 import React from "react";
 import MaterialTable from "material-table";
-import { TableState } from "../interfaces/interfaces";
-import { data } from "../data/data";
+import { TableState } from "../../interfaces/interfaces";
+import { data } from "../../data/data";
 
 export default function Table() {
   const [state, setState] = React.useState<TableState>({
